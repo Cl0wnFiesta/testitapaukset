@@ -1,4 +1,4 @@
 # Testitapaukset
 
-![Raportti](/images/raportti.PNG "")
-![Raportti](/images/rar.PNG "")
+![Raportti](/images/raportti.png "")
+![Raportti](/images/rar.png "")
