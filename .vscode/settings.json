@@ -1,0 +1,16 @@
+{
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.test.config": {
+      "name": "${workspaceFolder}/bin",
+      "java": {
+          "goals": [
+              "clean",
+              "install",
+              "jacoco:prepare-agent",
+              "test",
+              "jacoco:report"
+          ]
+      }
+}
+
+}
