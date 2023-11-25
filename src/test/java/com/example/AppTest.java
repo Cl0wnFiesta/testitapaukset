@@ -43,11 +43,11 @@ public class AppTest {
             "3601, 1:00:01",  // Tunnin ja sekunnin testi
             "3660, 1:01:00",  // Tunnin ja minuutin testi
             "3661, 1:01:01",  // Tunnin, minuutin ja sekunnin testi
-            "32000, -1",      // Kieltoraja
-            "31999, 8:53:19", // Suurin mahdollinen hyväksytty aika
+            "32000, 8:53:20", // Vanha Kieltoraja
+            "31999, 8:53:19", // Suurin Vanha mahdollinen hyväksytty aika
             
-            "39599, -1 ",     // 10h 59m 59s
-            "86399, -1",      // Suurin mahdollinen aika päivässä
+            "39599, 10:59:59", // 10h 59m 59s
+            "86399, 23:59:59", // Suurin mahdollinen aika päivässä
             "86400, -1",      // Kieltoraja koska 1 day
     })
     public void testSecToTime(int a, String expected) {

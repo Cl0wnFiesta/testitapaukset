@@ -14,7 +14,7 @@ public class TimeUtils {
     public static String secToTime(int a) {
         int hh, mm, ss;
 
-        if (a < 0 || a >= 32000) {
+        if (a < 0 || a >= 86400) {
             return "-1";
         }
 
